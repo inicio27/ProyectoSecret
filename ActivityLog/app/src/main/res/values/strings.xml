@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ActivityLog</string>
+    <string name="title_activity_class__logeo">logeo</string>
+    <string name="titulo">ActivityLog</string>
+    <string name="descripcion">The best App to record activities...</string>
+    <string name="sincro">inicio de sesión para sincronización</string>
+    <string name="sincro2">de datos</string>
+    <string name="descripcionlista">Lista de actividades</string>
+    <string name="descripcionRegistro">Registrar nueva actividad</string>
+    <string name="tituloActividad">titulo</string>
+    <string name="entrada">entrada</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_pass">Contraseña</string>
+    <string name="txt_btn_continuar">CONTINUAR</string>
+    <string name="txt_btn_eliminar">ELIMINAR</string>
+    <string name="txt_btn_guardar">GUARDAR</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="CloseSesion">Cerrar sesion</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="hint_nom">Nombre</string>
+    <string name="txt_btn_Save">GUARDAR</string>
+    <string name="hint_N_entrada">Nueva entrada</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".ClassLogeoF">
+
+
+
+    <ImageView
+        android:id="@+id/icono_logf"
+        android:src="@drawable/facebook"
+        android:layout_width="@dimen/dimen_icono"
+        android:layout_height="@dimen/dimen_icono"
+        android:layout_marginTop="@dimen/margen_ci"
+        android:layout_centerHorizontal="true"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_usuario"
+        android:layout_marginTop="@dimen/margin_t"
+        android:layout_below="@id/icono_logf">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_usuario"
+            android:inputType="textEmailAddress"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <!--EditText
+        android:id="@+id/input_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/icono_logf"
+        android:layout_marginTop="20dp"/-->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_password"
+        android:layout_marginTop="@dimen/margin_t"
+        android:layout_below="@id/input_usuario">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_pass"
+            android:inputType="textPassword"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <!--EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_pass"
+            android:inputType="textPassword"
+            android:layout_below="@id/input_usuario"
+            android:layout_marginTop="20dp"/-->
+
+
+    <Button
+        android:id="@+id/btn_continuar"
+        android:text="@string/txt_btn_continuar"
+        android:textSize="@dimen/tam_letra"
+        android:background="@drawable/redondeado"
+        android:layout_width="@dimen/dimen_wbutton"
+        android:layout_height="@dimen/dimen_hbutton"
+        android:layout_below="@+id/input_password"
+        android:layout_marginTop="@dimen/dimen_med"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

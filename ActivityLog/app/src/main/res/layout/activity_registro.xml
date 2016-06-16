@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ClassRegistro">
+
+
+    <TextView
+        android:id="@+id/txtnombreActividad"
+        android:layout_width="@dimen/w_texto"
+        android:layout_height="wrap_content"
+        tools:text="Tokio Ghoul"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/txtFechaActividad"
+        android:layout_width="@dimen/w_texto"
+        android:layout_height="wrap_content"
+        tools:text="09/04/2016"
+        android:layout_below="@+id/txtnombreActividad"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <ImageButton
+        android:background="@drawable/agregar"
+        android:id="@+id/btn_masR"
+        android:layout_width="@dimen/dimen_icono"
+        android:layout_height="@dimen/dimen_icono"
+        android:layout_below="@+id/txtnombreActividad"
+        android:layout_alignRight="@+id/card2"
+        android:layout_alignEnd="@+id/card2" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card2"
+        card_view:cardCornerRadius="@dimen/corn_radio"
+        android:layout_width="@dimen/w_list2"
+        android:layout_height="@dimen/h_list2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_masR">
+        <ListView
+            android:id="@+id/listaRegistro"
+            android:layout_width="@dimen/w_list2"
+            android:layout_height="@dimen/h_list2"
+            android:background="@color/colorBlanco">
+
+        </ListView>
+
+    </android.support.v7.widget.CardView>
+
+    <ImageButton
+        android:background="@drawable/boton_finalizar"
+        android:id="@+id/finalizar"
+        android:layout_width="@dimen/dimen_icono"
+        android:layout_height="@dimen/dimen_icono"
+        android:layout_alignTop="@+id/btn_eliminar"
+        android:layout_toLeftOf="@+id/btn_masR"
+        android:layout_toStartOf="@+id/btn_masR" />
+
+    <ImageButton
+        android:id="@+id/btn_eliminar"
+        android:layout_width="@dimen/dimen_icono"
+        android:layout_height="@dimen/dimen_icono"
+        android:background="@drawable/delete"
+        android:layout_marginLeft="@dimen/margen_L"
+        android:layout_below="@+id/card2"
+        android:layout_alignLeft="@+id/card2"
+        android:layout_alignStart="@+id/card2"
+        android:layout_marginTop="@dimen/margin_t"
+        android:layout_marginStart="@dimen/margen_L" />
+
+
+    <!--Button
+        android:id="@+id/btn_eliminar"
+        android:text="@string/txt_btn_eliminar"
+        android:textSize="@dimen/tam_letra"
+        android:background="@drawable/redondeado"
+        android:layout_width="@dimen/dimen_wbutton"
+        android:layout_height="@dimen/dimen_hbutton"
+        android:layout_below="@+id/card2"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" /-->
+
+
+</RelativeLayout>

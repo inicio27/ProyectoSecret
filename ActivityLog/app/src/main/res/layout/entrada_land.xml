@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margen_setS"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:singleLine="false"
+        android:id="@+id/input_entrada">
+        <EditText
+            android:hint="@string/hint_N_entrada"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btn_guardarR"
+        android:text="@string/txt_btn_guardar"
+        android:textSize="@dimen/txt_size"
+        android:background="@drawable/redondeado"
+        android:layout_width="@dimen/dimen_wbutton"
+        android:layout_height="@dimen/dimen_hbutton"
+        android:layout_marginTop="@dimen/margen_cuaO"
+        android:layout_below="@+id/input_entrada"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

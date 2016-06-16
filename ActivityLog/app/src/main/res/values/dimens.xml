@@ -1,0 +1,43 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dimen_icono">50dp</dimen>
+    <dimen name="dimen_wbutton">200dp</dimen>
+    <dimen name="dimen_hbutton">60dp</dimen>
+    <dimen name="tam_letra">25sp</dimen>
+    <dimen name="tam_titulo">45sp</dimen>
+    <dimen name="dimen_big">150dp</dimen>
+    <dimen name="dimen_med">80dp</dimen>
+    <dimen name="margen_trein">30dp</dimen>
+    <dimen name="tam_listf">40dp</dimen>
+    <dimen name="corn_radio">12dp</dimen>
+    <dimen name="w_lista">230dp</dimen>
+    <dimen name="h_lista">320dp</dimen>
+    <dimen name="margin_t">20dp</dimen>
+    <dimen name="margen_f">15dp</dimen>
+    <dimen name="margen_big">25dp</dimen>
+    <dimen name="txt_size">25sp</dimen>
+    <dimen name="margen_ci">100dp</dimen>
+    <dimen name="w_text">240dp</dimen>
+    <dimen name="w_texto">250dp</dimen>
+    <dimen name="w_list2">260dp</dimen>
+    <dimen name="h_list2">300dp</dimen>
+    <dimen name="margen_L">47dp</dimen>
+    <dimen name="margen_cinc">50dp</dimen>
+    <dimen name="margen_ochF">84dp</dimen>
+    <dimen name="dimen_ic_logo">200dp</dimen>
+    <dimen name="margen_ses">60dp</dimen>
+    <dimen name="dimen_progress">90dp</dimen>
+    <dimen name="margen_cincT">53dp</dimen>
+    <dimen name="margen_setS">76dp</dimen>
+    <dimen name="margen_cuaO">48dp</dimen>
+    <dimen name="w_listaL">480dp</dimen>
+    <dimen name="h_listaL">200dp</dimen>
+    <dimen name="margen_qui">15dp</dimen>
+    <dimen name="dimen_ic2">60dp</dimen>
+    <dimen name="margen_die">10dp</dimen>
+    <dimen name="margen_veiC">25dp</dimen>
+    <dimen name="margen_cuar">40dp</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="url">http://localhost:3000/</string>
+    <string name="url_post">actividades/</string>
+    <string name="url_get">actividades/</string>
+</resources>

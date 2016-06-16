@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="logeo" type="layout">@layout/activity_logeo</item>
+    <item name="logeo_f" type="layout">@layout/activity_logeof</item>
+    <item name="logeo_g" type="layout">@layout/activity_logeog</item>
+    <item name="lista" type="layout">@layout/activity_lista</item>
+    <item name="r_actividad" type="layout">@layout/activity_registro_actividad</item>
+    <item name="registro" type="layout">@layout/activity_registro</item>
+    <item name="entrada" type="layout">@layout/activity_entrada</item>
+    <!--item name="finalizadas" type="layout">@layout/activity_acti_finalizadas</item-->
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.movil.sony.activitylog.ClassRegistroActividad"/>
+      <point      
+        x = "52"      
+        y = "192"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.movil.sony.activitylog.ClassSplash"/>
+      <point      
+        x = "1948"      
+        y = "120"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.movil.sony.activitylog.ClassRegistro"/>
+      <point      
+        x = "1272"      
+        y = "864"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.movil.sony.activitylog.ClassEntrada"/>
+      <point      
+        x = "832"      
+        y = "-192"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.movil.sony.activitylog.ClassLogeo"/>
+      <point      
+        x = "504"      
+        y = "116"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.movil.sony.activitylog.activity_logeof"/>
+      <point      
+        x = "650"      
+        y = "250"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.movil.sony.activitylog.activity_logeoF"/>
+      <point      
+        x = "700"      
+        y = "300"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.movil.sony.activitylog.ClassLista"/>
+      <point      
+        x = "750"      
+        y = "350"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.movil.sony.activitylog.Classlogeo"/>
+      <point      
+        x = "800"      
+        y = "400"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.movil.sony.activitylog.ClassLogeoF"/>
+      <point      
+        x = "850"      
+        y = "450"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.movil.sony.activitylog.ClasslogeoG"/>
+      <point      
+        x = "900"      
+        y = "500"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="@dimen/margen_qui"
+        android:id="@+id/txtnombreActividad"
+        android:layout_width="@dimen/h_list2"
+        android:layout_height="wrap_content"
+        android:text="Tokio Ghoul"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/txtFechaActividad"
+        android:layout_width="@dimen/w_text"
+        android:layout_height="wrap_content"
+        android:text="09/04/2016"
+        android:layout_below="@+id/txtnombreActividad"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <ImageButton
+        android:background="@drawable/agregar"
+        android:id="@+id/btn_masR"
+        android:layout_width="@dimen/dimen_icono"
+        android:layout_height="@dimen/dimen_icono"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/finalizar"
+        android:layout_alignStart="@+id/finalizar" />
+
+    <ListView
+        android:layout_width="@dimen/h_listaL"
+        android:layout_height="@dimen/h_listaL"
+        android:layout_marginTop="@dimen/margen_qui"
+        android:id="@+id/listaRegistro"
+        android:background="@color/colorBlanco"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/btn_masR"
+        android:layout_below="@+id/txtFechaActividad"
+        android:layout_toLeftOf="@+id/btn_masR">
+    </ListView>
+
+    <ImageButton
+        android:background="@drawable/boton_finalizar"
+        android:id="@+id/finalizar"
+        android:layout_width="@dimen/dimen_icono"
+        android:layout_height="@dimen/dimen_icono"
+        android:layout_alignTop="@+id/txtnombreActividad"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/btn_eliminar"
+        android:layout_width="@dimen/dimen_icono"
+        android:layout_height="@dimen/dimen_icono"
+        android:background="@drawable/delete"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/margen_trein" />
+
+    <!--Button
+        android:id="@+id/btn_eliminar"
+        android:text="@string/txt_btn_eliminar"
+        android:textSize="@dimen/tam_letra"
+        android:background="@drawable/redondeado"
+        android:layout_width="@dimen/dimen_wbutton"
+        android:layout_height="@dimen/dimen_hbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" /-->
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TextView
+        android:layout_marginTop="@dimen/margen_qui"
+        android:id="@+id/descripcionLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcionlista"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_marginTop="@dimen/margen_qui"
+        android:background="@color/colorBlanco"
+        android:id="@+id/listaActividades"
+        android:layout_width="@dimen/w_listaL"
+        android:layout_height="@dimen/h_listaL"
+        android:layout_below="@+id/descripcionLista"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </ListView>
+
+
+    <ImageButton
+        android:id="@+id/Afinalizadas"
+        android:background="@drawable/listar"
+        android:scaleType="centerCrop"
+        android:layout_width="@dimen/dimen_icono"
+        android:layout_height="@dimen/dimen_icono"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btn_mas"
+        android:layout_alignStart="@+id/btn_mas" />
+
+    <ImageButton
+        android:background="@drawable/agregar"
+        android:id="@+id/btn_mas"
+        android:layout_width="@dimen/dimen_ic2"
+        android:layout_height="@dimen/dimen_ic2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/cerrarSesion"
+        android:layout_alignEnd="@+id/cerrarSesion" />
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:text="@string/CloseSesion"
+        android:id="@+id/cerrarSesion"
+        android:layout_width="@dimen/dimen_wbutton"
+        android:layout_height="@dimen/dimen_hbutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/listaActividades"
+        android:layout_toEndOf="@+id/listaActividades"/>
+
+</RelativeLayout>
